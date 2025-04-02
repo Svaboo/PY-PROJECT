@@ -7,10 +7,10 @@ Naša fitnes aplikacija ti bo pomagala ostati na pravi poti. Omogoča preprosto 
 Z interaktivnimi funkcijami, kot so prilagodljiv avatar, vizualni prikaz napredka in tekmovalna lestvica, vadba postane zanimiva. Vsak uspeh je nagrajen, vsak trening šteje, aplikacija pa poskrbi, da ostaneš motiviran.
 
 Kaj nas loči od drugih?
-- **Gamifikacija**: Spremljanje napredka prek vizualnih sprememb, nagrad in lestvic.
-- **AI asistent**: Predlaga vadbe, pomaga pri tehniki in svetuje glede prehrane.
-- **Celovit sistem sledenja**: Vnos hrane, hidracije, vadbe in napredka na enem mestu.
-- **Tekmovalni duh**: Lestvice najboljših uporabnikov za dodatno motivacijo.
+- Gamifikacija**: Spremljanje napredka prek vizualnih sprememb, nagrad in lestvic.
+- AI asistent**: Predlaga vadbe, pomaga pri tehniki in svetuje glede prehrane.
+- Celovit sistem sledenja**: Vnos hrane, hidracije, vadbe in napredka na enem mestu.
+- Tekmovalni duh**: Lestvice najboljših uporabnikov za dodatno motivacijo.
 
 Ciljna skupina
 - **Fitnes navdušenci** – Za vse, ki želijo spremljati svoj napredek in izboljšati rezultate.
@@ -48,11 +48,11 @@ Grožnje:
 - Možna nizka uporabniška angažiranost zaradi pomanjkanja discipline
 
 Viri prihodkov
-- **Naročnina (freemium model)** – Osnovne funkcije so brezplačne, premium paket pa vključuje napredne AI nasvete, dodatne vizualizacije in personalizirane vadbene načrte.
-- **Oglaševanje** – Možnost prikaza oglasov za fitnes opremo, prehranska dopolnila in športne storitve.
-- **Nakupi znotraj aplikacije** – Prilagoditve avatarja, posebne značke, dodatne analitične funkcije.
-- **Partnerstva s fitnes centri in blagovnimi znamkami** – Ekskluzivne ugodnosti za uporabnike.
-- **Prodaja podatkov (anonimizirano)** – Agregirani podatki o trendih vadbe za raziskovalne namene in partnerje iz industrije.
+- Naročnina (freemium model)** – Osnovne funkcije so brezplačne, premium paket pa vključuje napredne AI nasvete, dodatne vizualizacije in personalizirane vadbene načrte.
+- Oglaševanje** – Možnost prikaza oglasov za fitnes opremo, prehranska dopolnila in športne storitve.
+- Nakupi znotraj aplikacije** – Prilagoditve avatarja, posebne značke, dodatne analitične funkcije.
+- Partnerstva s fitnes centri in blagovnimi znamkami** – Ekskluzivne ugodnosti za uporabnike.
+- Prodaja podatkov (anonimizirano)** – Agregirani podatki o trendih vadbe za raziskovalne namene in partnerje iz industrije.
 
 Fitnes nikoli več ne bo dolgočasen. Pripravi se na preobrazbo svojega telesa in uma na zabaven, interaktiven in motivacijski način!
 
