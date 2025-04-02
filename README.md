@@ -48,9 +48,9 @@ Grožnje:
 - Možna nizka uporabniška angažiranost zaradi pomanjkanja discipline
 
 Viri prihodkov
-- Naročnina (freemium model)** – Osnovne funkcije so brezplačne, premium paket pa vključuje napredne AI nasvete, dodatne vizualizacije in personalizirane vadbene načrte.
+- Naročnina (freemium model) – Osnovne funkcije so brezplačne, premium paket pa vključuje napredne AI nasvete, dodatne vizualizacije in personalizirane vadbene načrte.
 - Oglaševanje** – Možnost prikaza oglasov za fitnes opremo, prehranska dopolnila in športne storitve.
-- Nakupi znotraj aplikacije** – Prilagoditve avatarja, posebne značke, dodatne analitične funkcije.
+- Nakupi znotraj aplikacije – Prilagoditve avatarja, posebne značke, dodatne analitične funkcije.
 - Partnerstva s fitnes centri in blagovnimi znamkami** – Ekskluzivne ugodnosti za uporabnike.
 - Prodaja podatkov (anonimizirano)** – Agregirani podatki o trendih vadbe za raziskovalne namene in partnerje iz industrije.
 
