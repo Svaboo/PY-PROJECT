@@ -49,3 +49,21 @@ Partnerstva z vadbenimi centri (npr. možnost uvoza programov vadbe)
 Trening ne rabi biti kompliciran. S to aplikacijo boš točno vedel, kje si – in kam greš. Napredek se ne meri po tem, koliko aplikacij uporabljaš, ampak koliko več dvigneš.
 
 Naj tvoj napredek govori zase.
+
+MVP (Minimal Viable Product)
+Funkcionalnosti MVP-ja:
+
+Beleženje vaj, števila ponovitev in teže
+Prikaz zgodovine treningov po datumu in vaji
+Osnovna statistika napredka (npr. osebni rekordi)
+Možnost iskanja in filtriranja po vajah
+Preprost, odziven vmesnik z jasnim fokusom na uporabnost
+Uporabniški tok (User Flow):
+
+Uporabnik odpre aplikacijo
+Izbere možnost »Dodaj trening«
+Vpiše ime vaje, ponovitve in težo
+Shrani trening
+Aplikacija prikazuje prejšnje treninge in napredek
+Cilj MVP-ja:
+Omogočiti uporabniku enostavno beleženje dvigov in pregled nad napredkom, brez nepotrebnih motenj ali dodatnih funkcij.
