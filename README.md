@@ -1,58 +1,51 @@
 Opis problema
-Kolikokrat si že rekel, da boš začel resno trenirati, pa si po nekaj dneh obupal? Kolikokrat si poskušal paziti na prehrano, pa si vseeno posegel po hitri hrani? Veliko ljudi ima težave pri sledenju napredku, ohranjanju motivacije in doslednosti pri vadbi. Pogosto jim manjkajo jasni podatki o rezultatih, prehrani in hidraciji, obstoječe aplikacije pa so ali preveč zapletene ali dolgočasne.
+Kolikokrat si že rekel, da boš začel resno trenirati, pa si po nekaj dneh obupal? Kolikokrat si si rekel, da boš začel zapisovati svoje dvige, pa si na koncu pozabil, kaj si sploh treniral? Večina nas ima težave z doslednostjo – še posebej, ko ni enostavnega načina za spremljanje napredka.
+
+Ko ne veš, koliko si prejšnjič dvignil, je težko napredovati. Hitro se vrtiš v krogu enakih treningov, motivacija pa počasi pada. Večina obstoječih aplikacij je ali preveč zakompliciranih ali pa ima toliko funkcij, da se v njih izgubiš – v resnici pa želiš samo nekaj preprostega: jasno sliko o tem, koliko si napredoval.
 
 Rešitev
-Naša fitnes aplikacija ti bo pomagala ostati na pravi poti. Omogoča preprosto beleženje treningov, spremljanje prehrane in hidracije ter ohranja motivacijo z nagradami, lestvicami in AI asistentom. Želiš osebnega trenerja v svojem žepu? Tukaj je!
+Zato sem naredil aplikacijo, ki ti pomaga pri beleženju svojih dvigov, da lahko boljše in hitreje napreduješ.
 
-Z interaktivnimi funkcijami, kot so prilagodljiv avatar, vizualni prikaz napredka in tekmovalna lestvica, vadba postane zanimiva. Vsak uspeh je nagrajen, vsak trening šteje, aplikacija pa poskrbi, da ostaneš motiviran.
+Preprosto beležiš svoje treninge, ponovitve in kilograme. Vidiš, kje si bil prejšnji teden in kaj lahko danes izboljšaš. Nič več ugibanja. Nič več pozabljanja. Samo konstanten napredek.
 
 Kaj nas loči od drugih?
-- Gamifikacija**: Spremljanje napredka prek vizualnih sprememb, nagrad in lestvic.
-- AI asistent**: Predlaga vadbe, pomaga pri tehniki in svetuje glede prehrane.
-- Celovit sistem sledenja**: Vnos hrane, hidracije, vadbe in napredka na enem mestu.
-- Tekmovalni duh**: Lestvice najboljših uporabnikov za dodatno motivacijo.
+Namesto da bi poskušali biti vse naenkrat, smo se osredotočili na tisto, kar šteje – tvoje dvige.
+Brez prehranskih načrtov, brez hidracije, brez avatarjev. Samo preprost in učinkovit sistem za sledenje vajam.
 
 Ciljna skupina
-- **Fitnes navdušenci** – Za vse, ki želijo spremljati svoj napredek in izboljšati rezultate.
-- **Tisti, ki potrebujejo dodatno motivacijo** – Nagrade in lestvice bodo poskrbele za vztrajnost.
-- **Začetniki v fitnesu** – AI trener te vodi korak za korakom.
-- **Tekmovalni športniki** – Podrobna analiza rezultatov in izboljšanje tehnike.
-
+Resni dvigovalci – tisti, ki želijo imeti jasno evidenco napredka.
+Začetniki – da že od začetka sledijo vsakemu koraku.
+Ljudje, ki se vračajo v fitnes – da si ponovno zgradijo rutino.
 Prednosti
-- Enostaven in pregleden vmesnik
-- Prilagodljiv profil in avatar
-- Natančno sledenje vadbam, hidraciji in prehrani
-- AI pomočnik za izboljšanje vadbe in prehrane
-- Gamifikacija za večjo motivacijo
-- Možnost tekmovanja z drugimi uporabniki
-
+Preprost vmesnik brez nepotrebnih funkcij
+Jasna zgodovina vseh treningov
+Hiter vnos podatkov, brez komplikacij
+Pomaga ti ostati dosleden in motiviran
 Trg in konkurenca
-Na trgu že obstajajo fitnes aplikacije, kot so MyFitnessPal, Strava in Fitbod, vendar nobena ne združuje vseh ključnih funkcij na enem mestu. Naša aplikacija prinaša večjo personalizacijo, interaktivne elemente in motivacijske funkcije, ki jih konkurenca ne ponuja na enako privlačen način.
+Obstaja veliko fitnes aplikacij, a večina jih gre predaleč – poskušajo pokriti prehrano, spanec, kardio in še več. Naš fokus je ožji in zato boljši: dvigi. Vemo, da je največji napredek v doslednosti – in prav to omogočamo uporabniku.
 
 SWOT analiza
 Prednosti:
-- Celovit pristop k spremljanju napredka
-- Integracija AI pomočnika
-- Gamifikacija in tekmovalni elementi
 
+Osredotočenost samo na dvige
+Enostavna uporaba
+Jasna evidenca napredka
 Slabosti:
-- Potreba po rednem vnosu podatkov
-- Višji stroški razvoja zaradi več funkcionalnosti
 
+Ne pokrivamo ostalih fitnes področij
+Manj privlačna za uporabnike, ki iščejo "vse-v-enem" rešitev
 Priložnosti:
-- Naraščajoč interes za digitalne fitnes rešitve
-- Možnost partnerstev s fitnes centri in prehranskimi podjetji
 
+Naraščajoče zanimanje za trening moči
+Veliko uporabnikov, ki iščejo nekaj preprostega
 Grožnje:
-- Močna konkurenca na področju fitnes aplikacij
-- Možna nizka uporabniška angažiranost zaradi pomanjkanja discipline
 
+Aplikacije, ki ponujajo širšo paleto funkcij
+Možno zanemarjanje aplikacije, če uporabnik izgubi motivacijo
 Viri prihodkov
-- Naročnina (freemium model) – Osnovne funkcije so brezplačne, premium paket pa vključuje napredne AI nasvete, dodatne vizualizacije in personalizirane vadbene načrte.
-- Oglaševanje** – Možnost prikaza oglasov za fitnes opremo, prehranska dopolnila in športne storitve.
-- Nakupi znotraj aplikacije – Prilagoditve avatarja, posebne značke, dodatne analitične funkcije.
-- Partnerstva s fitnes centri in blagovnimi znamkami** – Ekskluzivne ugodnosti za uporabnike.
-- Prodaja podatkov (anonimizirano)** – Agregirani podatki o trendih vadbe za raziskovalne namene in partnerje iz industrije.
+Enkratno plačilo ali naročnina za napredne funkcije (npr. grafi napredka, izvoz podatkov)
+Minimalno oglaševanje (npr. športna oprema, fitnes dodatki)
+Partnerstva z vadbenimi centri (npr. možnost uvoza programov vadbe)
+Trening ne rabi biti kompliciran. S to aplikacijo boš točno vedel, kje si – in kam greš. Napredek se ne meri po tem, koliko aplikacij uporabljaš, ampak koliko več dvigneš.
 
-Fitnes nikoli več ne bo dolgočasen. Pripravi se na preobrazbo svojega telesa in uma na zabaven, interaktiven in motivacijski način!
-
+Naj tvoj napredek govori zase.
