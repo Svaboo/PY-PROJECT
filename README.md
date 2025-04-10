@@ -31,3 +31,14 @@ Oglaševanje športne opreme
 Partnerstva s fitnes centri
 Zaključek
 Trening naj bo enostaven. S to aplikacijo veš, kje si, kaj si delal, in kam greš. Napredek je tisti, ki šteje.
+
+Funkcije:
+
+Prijava in varnost uporabniških računov
+Beleženje vaj, ponovitev in teže
+Pregled zgodovine treningov po datumu in vaji
+Osnovna statistika (osebni rekordi.)
+Iskanje in filtriranje po vajah
+Interaktivna 3D mapa napredka
+Leaderboard za primerjavo z drugimi uporabniki
+
