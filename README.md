@@ -2,7 +2,7 @@ Problem
 Kolikokrat si začel trenirat z dobrimi nameni, pa si hitro odnehal? Al pa si pozabil, kaj si delal prejšnjič, ker nisi nič beležil? Večina fitnes aplikacij je preveč kompliciranih – v resnici pa želiš samo vedet, koliko si napredoval.
 
 Rešitev
-Ustvaril sem preprosto aplikacijo za beleženje dvigov. Vpišeš vajo, ponovitve in težo – aplikacija pa shrani vse treninge in ti pokaže, kako napreduješ. Brez komplikacij, brez nepotrebnih funkcij. Samo ti in tvoj napredek.
+Ustvaril sem preprosto aplikacijo za beleženje dvigov. Vpišeš vajo, ponovitve in težo – aplikacija pa shrani vse treninge in ti pokaže, kako napreduješ.
 
 Kaj nas loči
 Fokusiramo se samo na dvige. Brez prehrane, spanja, hidracije ali avatarjev. Minimalen, učinkovit in hiter sistem za sledenje vajam.
@@ -30,4 +30,4 @@ Enkratno plačilo ali naročnina za dodatne funkcije
 Oglaševanje športne opreme
 Partnerstva s fitnes centri
 Zaključek
-Trening naj bo enostaven. S to aplikacijo veš, kje si, kaj si delal, in kam greš. Napredek je tisti, ki šteje – ne število funkcij v aplikaciji.
+Trening naj bo enostaven. S to aplikacijo veš, kje si, kaj si delal, in kam greš. Napredek je tisti, ki šteje.
