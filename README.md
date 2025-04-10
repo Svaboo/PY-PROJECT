@@ -1,69 +1,33 @@
-Opis problema
-Kolikokrat si že rekel, da boš začel resno trenirati, pa si po nekaj dneh obupal? Kolikokrat si si rekel, da boš začel zapisovati svoje dvige, pa si na koncu pozabil, kaj si sploh treniral? Večina nas ima težave z doslednostjo – še posebej, ko ni enostavnega načina za spremljanje napredka.
-
-Ko ne veš, koliko si prejšnjič dvignil, je težko napredovati. Hitro se vrtiš v krogu enakih treningov, motivacija pa počasi pada. Večina obstoječih aplikacij je ali preveč zakompliciranih ali pa ima toliko funkcij, da se v njih izgubiš – v resnici pa želiš samo nekaj preprostega: jasno sliko o tem, koliko si napredoval.
+Problem
+Kolikokrat si začel trenirat z dobrimi nameni, pa si hitro odnehal? Al pa si pozabil, kaj si delal prejšnjič, ker nisi nič beležil? Večina fitnes aplikacij je preveč kompliciranih – v resnici pa želiš samo vedet, koliko si napredoval.
 
 Rešitev
-Zato sem naredil aplikacijo, ki ti pomaga pri beleženju svojih dvigov, da lahko boljše in hitreje napreduješ.
+Ustvaril sem preprosto aplikacijo za beleženje dvigov. Vpišeš vajo, ponovitve in težo – aplikacija pa shrani vse treninge in ti pokaže, kako napreduješ. Brez komplikacij, brez nepotrebnih funkcij. Samo ti in tvoj napredek.
 
-Preprosto beležiš svoje treninge, ponovitve in kilograme. Vidiš, kje si bil prejšnji teden in kaj lahko danes izboljšaš. Nič več ugibanja. Nič več pozabljanja. Samo konstanten napredek.
+Kaj nas loči
+Fokusiramo se samo na dvige. Brez prehrane, spanja, hidracije ali avatarjev. Minimalen, učinkovit in hiter sistem za sledenje vajam.
 
-Kaj nas loči od drugih?
-Namesto da bi poskušali biti vse naenkrat, smo se osredotočili na tisto, kar šteje – tvoje dvige.
-Brez prehranskih načrtov, brez hidracije, brez avatarjev. Samo preprost in učinkovit sistem za sledenje vajam.
+Za koga
 
-Ciljna skupina
-Resni dvigovalci – tisti, ki želijo imeti jasno evidenco napredka.
-Začetniki – da že od začetka sledijo vsakemu koraku.
-Ljudje, ki se vračajo v fitnes – da si ponovno zgradijo rutino.
-Prednosti
-Preprost vmesnik brez nepotrebnih funkcij
-Jasna zgodovina vseh treningov
-Hiter vnos podatkov, brez komplikacij
-Pomaga ti ostati dosleden in motiviran
-Trg in konkurenca
-Obstaja veliko fitnes aplikacij, a večina jih gre predaleč – poskušajo pokriti prehrano, spanec, kardio in še več. Naš fokus je ožji in zato boljši: dvigi. Vemo, da je največji napredek v doslednosti – in prav to omogočamo uporabniku.
+Lifterje, ki želijo spremljat napredek
+Začetnike, ki hočejo dober start
+Tiste, ki se vračajo v fitnes in rabijo rutino
 
-SWOT analiza
-Prednosti:
+Ključne prednosti
+Hiter vnos podatkov
+Jasna zgodovina treningov
+Povečana doslednost in motivacija
+zabaven nacin za trackanje
 
-Osredotočenost samo na dvige
-Enostavna uporaba
-Jasna evidenca napredka
-Slabosti:
+MVP funkcije
+Dodajanje vaj, ponovitev in teže
+Pregled treningov po datumu in vaji
+Osnovna statistika (npr. osebni rekordi)
+Iskanje in filtriranje vaj
 
-Ne pokrivamo ostalih fitnes področij
-Manj privlačna za uporabnike, ki iščejo "vse-v-enem" rešitev
-Priložnosti:
-
-Naraščajoče zanimanje za trening moči
-Veliko uporabnikov, ki iščejo nekaj preprostega
-Grožnje:
-
-Aplikacije, ki ponujajo širšo paleto funkcij
-Možno zanemarjanje aplikacije, če uporabnik izgubi motivacijo
-Viri prihodkov
-Enkratno plačilo ali naročnina za napredne funkcije (npr. grafi napredka, izvoz podatkov)
-Minimalno oglaševanje (npr. športna oprema, fitnes dodatki)
-Partnerstva z vadbenimi centri (npr. možnost uvoza programov vadbe)
-Trening ne rabi biti kompliciran. S to aplikacijo boš točno vedel, kje si – in kam greš. Napredek se ne meri po tem, koliko aplikacij uporabljaš, ampak koliko več dvigneš.
-
-Naj tvoj napredek govori zase.
-
-MVP (Minimal Viable Product)
-Funkcionalnosti MVP-ja:
-
-Beleženje vaj, števila ponovitev in teže
-Prikaz zgodovine treningov po datumu in vaji
-Osnovna statistika napredka (npr. osebni rekordi)
-Možnost iskanja in filtriranja po vajah
-Preprost, odziven vmesnik z jasnim fokusom na uporabnost
-Uporabniški tok (User Flow):
-
-Uporabnik odpre aplikacijo
-Izbere možnost »Dodaj trening«
-Vpiše ime vaje, ponovitve in težo
-Shrani trening
-Aplikacija prikazuje prejšnje treninge in napredek
-Cilj MVP-ja:
-Omogočiti uporabniku enostavno beleženje dvigov in pregled nad napredkom, brez nepotrebnih motenj ali dodatnih funkcij.
+Vir prihodka
+Enkratno plačilo ali naročnina za dodatne funkcije
+Oglaševanje športne opreme
+Partnerstva s fitnes centri
+Zaključek
+Trening naj bo enostaven. S to aplikacijo veš, kje si, kaj si delal, in kam greš. Napredek je tisti, ki šteje – ne število funkcij v aplikaciji.
