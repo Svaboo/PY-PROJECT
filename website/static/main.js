@@ -19,7 +19,7 @@ directionalLight.castShadow = true;
 scene.add(directionalLight);
 
 const gltfLoader = new GLTFLoader();
-const url = '/static/drevo.glb';
+const url = '/static/map.glb';
 
 gltfLoader.load(url, (gltf) => {
     const root = gltf.scene;
@@ -31,12 +31,16 @@ gltfLoader.load(url, (gltf) => {
     console.error("Napaka pri nalaganju modela:", error);
 });
 
+camera.position.x = -6.440;
+camera.position.y = 17.907790044514503;
+camera.position.z = -34.640789754832838;
+
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
 
-camera.position.set(0, 2, 5);
-
 function animate() {
+
+    console.log(camera.position);
     requestAnimationFrame(animate);
     controls.update();
     renderer.render(scene, camera);
