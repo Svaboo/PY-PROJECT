@@ -3,26 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>My first three.js app</title>
-    <style>
-
-      #info {
-        position: absolute;
-        top: 0;
-        width: 100%;
-        padding: 5px;
-        text-align: center;
-        color: #7b7b7b;
-        background: #3c3c3c;
-        font-family: Monospace;
-        font-size: 23px;
-        font-weight: bold;
-        cursor: pointer;
-    }
-      body { margin: 0; }
-
-    </style>
+    <link rel="stylesheet" href="{{ url_for('static', filename='st.css') }}">
   </head>
   <body>
+    <div id="experience">
+      <canvas id="experience-canvas"></canvas>
+    </div>
     <script type="importmap">
       {
         "imports": {
