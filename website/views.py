@@ -11,15 +11,21 @@ views = Blueprint('views', __name__)
 @login_required
 def home():
     if request.method == 'POST': 
-        note = request.form.get('note')
+        note = request.form.get('note')  
+        reps = request.form.get('reps')  
+        weight = request.form.get('weight')
 
         if len(note) < 1:
-            flash('Note is too short!', category='error') 
+            flash('Exercise name is too short!', category='error') 
+        elif not reps or int(reps) < 1:
+            flash('Reps must be a positive number!', category='error')
+        elif not weight or float(weight) < 0:
+            flash('Weight must be a non-negative number!', category='error')
         else:
-            new_note = Note(data=note, user_id=current_user.id) 
+            new_note = Note(data=note, reps=int(reps), weight=float(weight), user_id=current_user.id) 
             db.session.add(new_note)
             db.session.commit()
-            flash('Note added!', category='success')
+            flash('Exercise added!', category='success')
 
     return render_template("home.html", user=current_user)
 
