@@ -6,7 +6,7 @@
 <ul class="list-group list-group-flush" id="notes">
   {% for note in user.notes %}
   <li class="list-group-item">
-    {{ note.data }} - Reps: {{ note.reps }} - Weight: {{ note.weight }} kg
+    {{ note.data }} - Reps: {{ note.reps }} - Weight: {{ note.weight }} kg - Date: {{ note.date.strftime('%Y-%m-%d %H:%M:%S') }}
     <button type="button" class="close" onClick="deleteNote({{ note.id }})">
       <span aria-hidden="true">&times;</span>
     </button>
@@ -14,7 +14,7 @@
   {% endfor %}
 </ul>
 
-<form method="POST">
+<form method="POST" class="mt-4">
   <textarea name="note" id="note" class="form-control" placeholder="Enter exercise name"></textarea>
   <br />
   <input type="number" name="reps" id="reps" class="form-control" placeholder="Enter reps" />
