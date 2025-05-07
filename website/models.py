@@ -11,6 +11,7 @@ class Note(db.Model):
     weight = db.Column(db.Float, nullable=False)
     date = db.Column(db.DateTime(timezone=True), default=func.now())
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
+    workout_id = db.Column(db.Integer, db.ForeignKey('workout.id')) 
 
 
 class User(db.Model, UserMixin):
@@ -19,3 +20,11 @@ class User(db.Model, UserMixin):
     password = db.Column(db.String(150))
     first_name = db.Column(db.String(150))
     notes = db.relationship('Note')
+    workouts = db.relationship('Workout')
+
+class Workout(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    data = db.Column(db.String(10000))
+    date = db.Column(db.DateTime(timezone=True), default=func.now())
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
+    notes = db.relationship('Note', backref='workout', lazy=True)
