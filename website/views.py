@@ -3,6 +3,7 @@ from flask_login import login_required, current_user
 from .models import Note, Workout
 from . import db
 import json
+import requests
 
 views = Blueprint('views', __name__)
 
@@ -38,8 +39,8 @@ def home():
             flash('Add a workout first!', category='error')
         elif len(note) < 1:
             flash('Exercise name is too short!', category='error') 
-        elif not reps or int(reps) < 1:
-            flash('Reps must be a positive number!', category='error')
+        elif not reps or int(reps) < 1 or int(reps) > 100:
+            flash('Reps must be a number between 1 and 100!', category='error')
         elif not weight or float(weight) < 0:
             flash('Weight must be a non-negative number!', category='error')
         else:
@@ -76,4 +77,10 @@ def delete_workout():
 
     return jsonify({})
 
+@views.route('/records', methods=['GET', 'POST'])
+@login_required
 
+def results():
+    
+    workouts = Workout.query.filter_by(user_id=current_user.id).all()
+    return render_template("records.html", user=current_user, workouts=workouts)
