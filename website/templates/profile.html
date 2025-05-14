@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Profile{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+  <h1 align="center">Profile</h1>
+  <div class="card mt-4">
+    <div class="card-body">
+      <h3 class="card-title">Welcome, {{ username }}!</h3>
+      <p class="card-text">
+        <strong>Number of Workouts:</strong> {{ num_workouts }}<br>
+        <strong>Number of Exercises:</strong> {{ num_exercises }}
+      </p>
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -33,6 +33,7 @@ def home():
             db.session.add(new_workout)
             db.session.commit()
             flash('Workout added!', category='success') 
+            return redirect(url_for('views.home'))
                    
     elif note:
         if not workout_id or not Workout.query.get(workout_id):
@@ -48,7 +49,8 @@ def home():
             db.session.add(new_note)
             db.session.commit()
             flash('Exercise added!', category='success')
-
+            return redirect(url_for('views.home'))
+        
     workouts = Workout.query.filter_by(user_id=current_user.id).all()
     return render_template("home.html", user=current_user, workouts=workouts)
 
@@ -78,9 +80,29 @@ def delete_workout():
     return jsonify({})
 
 @views.route('/records', methods=['GET', 'POST'])
-@login_required
+def records():
+    notes = []
+    if request.method == 'POST':
+        search_query = request.form.get('records')
+        if search_query:
+            notes = Note.query.filter(
+                Note.data.ilike(f"%{search_query}%"),
+                Note.user_id == current_user.id
+            ).all()
+    return render_template("records.html", user=current_user, notes=notes)
 
-def results():
-    
-    workouts = Workout.query.filter_by(user_id=current_user.id).all()
-    return render_template("records.html", user=current_user, workouts=workouts)
+@views.route('/profile', methods=['GET'])
+@login_required
+def profile():
+
+    num_workouts = Workout.query.filter_by(user_id=current_user.id).count()
+    num_exercises = Note.query.filter_by(user_id=current_user.id).count()
+    username = current_user.first_name
+
+    return render_template(
+        "profile.html",
+        user=current_user,
+        num_workouts=num_workouts,
+        num_exercises=num_exercises,
+        username=username
+    )

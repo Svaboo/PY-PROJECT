@@ -1,5 +1,26 @@
 {% extends "base.html" %} {% block title %}Login{% endblock %} {% block content
     %}
 <h1 align="center">Records</h1>
-    {% endblock %}
-    
+<p>Search for your exercise records</p>
+<form method="POST">
+<textarea name="records" id="record" class="form-control" placeholder="Enter exercise name"></textarea>
+<br />
+<button type="submit" class="btn btn-primary">search exercise</button>
+<br />
+</form>
+<br />
+{% if notes %}
+<ul class="list-group">
+  {% for note in notes %}
+  <li class="list-group-item">
+    <strong>Exercise:</strong> {{ note.data }}<br>
+    <strong>Weight:</strong> {{ note.weight }} kg<br>
+    <strong>Reps:</strong> {{ note.reps }}<br>
+    <strong>Date:</strong> {{ note.date.strftime('%Y-%m-%d') }}
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p class="text-muted">No records found. Try searching for an exercise.</p>
+{% endif %}
+{% endblock %}
